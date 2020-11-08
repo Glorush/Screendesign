@@ -1,0 +1,97 @@
+@media screen and (min-width: 768px){
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding:unset;
+	}
+}
+@media screen and (max-width: 767px){
+	.sticky .navbar-nav li a:hover,
+	.sticky .nav-pills .nav-link.active, .nav-pills .show>.nav-link .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	    border-bottom: 2px transparent;
+	}
+	.navbar-nav{
+		background: #A3A6B7;
+		position: relative;
+		z-index: 255;
+	}
+	.navbar-nav li {
+		margin-right: unset;
+	}
+	.navbar-nav li{
+	    display: block;
+	    text-align: center;
+	    padding:15px;
+	    border-bottom:1px solid #ddd;
+	}
+	.navbar-nav li:last-child{
+	    border-bottom:unset;
+	}
+	.banner-area {
+	  	padding: 160px 0 70px;
+	}
+	.go-head a {
+	    -webkit-transform: translateY(95px);
+	            transform: translateY(95px);
+	}
+	.single-about-items {
+	    display: unset;
+	}
+	.about-items {
+   	 	width: 100%;
+    	border: 2px solid #ddd;
+    	padding: 15px;
+    	margin:25px 0;
+	}
+	.single-gallery-items {
+	    display: unset;
+	}
+}
+@media screen and (max-width: 600px){
+	.banner-content h1{
+		font-size:45px;
+	}
+	h2{
+		font-size:32px;
+	}
+}
+@media screen and (max-width: 575px){
+	.container{
+		padding:0 20px;
+		box-sizing: border-box;
+	}
+	.view-more-btn {
+	    margin-bottom: 20px;
+	}
+	.bdr-btm {
+	    width: 90%;
+	    margin:25px auto;
+	}
+	input[type="text"] {
+	    width: 100%;
+	    margin-right:unset;
+	}input[type="email"] {
+	    width: 100%;
+	    margin-left:unset;
+	    margin-top:25px;
+	}
+	.contact-us {
+		padding: 20px 0 40px;
+	}
+}
+@media screen and (max-width: 360px){
+	.gallery-overlay h4 {
+		font-size: 21px;
+	}.socket ul li {
+		font-size: 18px;
+	}.about-content p {
+		line-height: 22px;
+	}
+	.banner-content h1 {
+		font-size: 42px;
+	}
+	h2{
+		font-size:23px;
+	}
+	.about-me p {
+		line-height: 24px;
+	}
+}
